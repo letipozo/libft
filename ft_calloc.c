@@ -6,7 +6,7 @@
 /*   By: lpozo-mo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/02 18:10:12 by lpozo-mo          #+#    #+#             */
-/*   Updated: 2026/05/02 18:59:58 by lpozo-mo         ###   ########.fr       */
+/*   Updated: 2026/05/03 22:53:36 by lpozo-mo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*ptr;
 
-	ptr = malloc(nmemb *size);
+	ptr = malloc(nmemb * size);
 	if (ptr == NULL)
 		return (NULL);
 	ft_bzero(ptr, nmemb * size);
